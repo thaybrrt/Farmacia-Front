@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <>
-      <div className="bg-emerald-50 flex justify-center">
+      <div className="bg-emerald-100 flex justify-center">
         <div className="container grid grid-cols-2 text-emerald-900">
           <div className="flex flex-col gap-4 items-center justify-center py-4">
             <h2 className="text-4xl font-bold">Bem-vindo à sua farmácia online</h2>
@@ -18,7 +18,7 @@ function Home() {
                 className="rounded bg-emerald-800 text-white py-2 px-4 hover:font-bold"
                 onClick={() => navigate("/categorias")}
               >
-                Ver categorias
+                Ver Produtos
               </button>
             </div>
           </div>
